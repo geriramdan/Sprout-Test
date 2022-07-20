@@ -17,12 +17,12 @@ body{
     flex-basis: 50%;
 }
 .left-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    display: flex;
     grid-gap:2rem;
+    flex-wrap: wrap;
 }
 .card{
-    width: 300px;
+    flex-basis: 45%;
     margin-left: 10px;
     background-color:#9EDEF9;
     border-radius: 1rem;

@@ -7,7 +7,7 @@
     grid-gap:1rem;
 }
 .card{
-    width: 250px;
+    width: 170px;
     background-color:#9EDEF9;
     border-radius: 1rem;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
@@ -17,6 +17,13 @@
     justify-content: space-between;
     box-sizing: border-box;
     font-size: 12px;
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.card .pokemon-number{
+    display: none;
 }
 .right-content{
     width: 50%;
